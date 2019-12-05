@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LKGPUImage_Example' do
+  pod 'LKGPUImage', :path => '../'
+
+  target 'LKGPUImage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
