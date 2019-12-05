@@ -1,0 +1,57 @@
+PODS:
+  - libextobjc (0.6):
+    - libextobjc/EXTADT (= 0.6)
+    - libextobjc/EXTConcreteProtocol (= 0.6)
+    - libextobjc/EXTKeyPathCoding (= 0.6)
+    - libextobjc/EXTNil (= 0.6)
+    - libextobjc/EXTSafeCategory (= 0.6)
+    - libextobjc/EXTScope (= 0.6)
+    - libextobjc/EXTSelectorChecking (= 0.6)
+    - libextobjc/EXTSynthesize (= 0.6)
+    - "libextobjc/NSInvocation+EXT (= 0.6)"
+    - "libextobjc/NSMethodSignature+EXT (= 0.6)"
+    - libextobjc/RuntimeExtensions (= 0.6)
+    - libextobjc/UmbrellaHeader (= 0.6)
+  - libextobjc/EXTADT (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTConcreteProtocol (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTKeyPathCoding (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTNil (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSafeCategory (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTScope (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSelectorChecking (0.6):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/EXTSynthesize (0.6):
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSInvocation+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - "libextobjc/NSMethodSignature+EXT (0.6)":
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.6)
+  - libextobjc/UmbrellaHeader (0.6)
+  - LKGPUImage (0.1.0):
+    - libextobjc (~> 0.6)
+
+DEPENDENCIES:
+  - LKGPUImage (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - libextobjc
+
+EXTERNAL SOURCES:
+  LKGPUImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libextobjc: aed8b7d2b07f511c1a7ecaacb33ea03e327c69b7
+  LKGPUImage: 808345e2e3fc287124d3c05866e59e52baa4ff80
+
+PODFILE CHECKSUM: 42bcc1f2b293233b9546f4670fa066c36a0a625c
+
+COCOAPODS: 1.8.3

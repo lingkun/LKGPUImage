@@ -347,10 +347,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LKGPUImage_Example/Pods-LKGPUImage_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LKGPUImage/LKGPUImage.framework",
+				"${BUILT_PRODUCTS_DIR}/libextobjc/libextobjc.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKGPUImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libextobjc.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
