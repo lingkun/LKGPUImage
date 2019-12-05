@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
                        GPUImage 手动集成，修改bug。利用滤镜完善图片的清晰度。
                        DESC
 
-  s.homepage         = 'https://github.com/2858850100@qq.com/LKGPUImage'
+  s.homepage         = 'https://github.com/lingkun/LKGPUImage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lingkun' => '2858850100@qq.com' }
-  s.source           = { :git => 'https://github.com/2858850100@qq.com/LKGPUImage.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lingkun/LKGPUImage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
